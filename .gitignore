@@ -1,0 +1,4 @@
+*.swp
+*.ini
+/.idea
+*.DS_Store
