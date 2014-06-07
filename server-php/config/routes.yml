@@ -1,0 +1,3 @@
+apis:
+  prefix: /api
+  resource: apiRessource.yml

@@ -1,0 +1,9 @@
+index:
+  path: /
+  defaults: {_controller: 'UbikZ\Tms\Controller\IndexController::indexAction'}
+  methods: [GET]
+
+getOne:
+  path: /{id}
+  defaults: {_controller: 'UbikZ\Tms\Controller\IndexController::getOneAction'}
+  methods: [GET]
