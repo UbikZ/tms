@@ -2,6 +2,7 @@
 
 var tmsApplication = angular.module('tms', [
     'ngRoute',
+    'ui.bootstrap',
     'tms.filters',
     'tms.services',
     'tms.directives',
