@@ -12,7 +12,7 @@ $app['debug'] = true;
 $app['routes'] = $app->extend(
     'routes',
     function (RouteCollection $routes, Application $app) {
-        $loader     = new YamlFileLoader(new FileLocator(__DIR__ . '/../config'));
+        $loader = new YamlFileLoader(new FileLocator(__DIR__ . '/../config'));
         $collection = $loader->load('routes.yml');
         $routes->addCollection($collection);
 
@@ -25,7 +25,7 @@ $app->register(
     array(
         'db.options' => array(
             'driver' => 'pdo_sqlite',
-            'path'   => __DIR__ . '/fixtures/tms.db',
+            'path' => __DIR__ . '/fixtures/tms.db',
         ),
     )
 );
